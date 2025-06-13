@@ -114,7 +114,7 @@ This section outlines how to visualize and analyze synthesis results from the Op
 ### 5. Power Report
 1. **Navigate to the Power Report Directory**:
    ```bash
-   cd /foss/designs/assignment/runs/RUN_2025-04-13_08-27-15/54-openroad-stapostpnr
+   cd /foss/designs/assignment/runs/RUN_2025-04-13_08-27-15/54-openroad-stapostpnr/nom_tt_025C_lv80
    ```
 2. **View the Power Report**:
    ```bash
