@@ -101,8 +101,17 @@ This section outlines how to visualize and analyze synthesis results from the Op
    xdot
    ```
    - Select the two `.dot` files individually.
+### 4. RTL Synthesis Summary
+1. **Navigate to the reports Directory**:
+   ```bash
+   cd /foss/designs/assignment/runs/RUN_2025-04-13_08-27-15/06-yosys-synthesis/reports
+   ```
+2. **View the rpt File**:
+   ```bash
+   cat stat.rpt
+   ```
 
-### 4. Core and Die Area
+### 5. Core and Die Area
 1. **Navigate to the Floorplan Log Directory**:
    ```bash
    cd /foss/designs/assignment/runs/RUN_2025-04-13_08-27-15/13-openroad-floorplan
@@ -111,7 +120,7 @@ This section outlines how to visualize and analyze synthesis results from the Op
    ```bash
    cat openroad-floorplan.log
    ```
-### 5. Power Report
+### 6. Power Report
 1. **Navigate to the Power Report Directory**:
    ```bash
    cd /foss/designs/assignment/runs/RUN_2025-04-13_08-27-15/54-openroad-stapostpnr/nom_tt_025C_lv80
@@ -120,6 +129,7 @@ This section outlines how to visualize and analyze synthesis results from the Op
    ```bash
    cat power.rpt
    ```
+   
 
 ## Video Recording Guidelines
 - For each module (ALU, FSM, Top), show the GTKWave window, zoom into key signal transitions, and explain how they verify functionality. Use cursor markers to highlight specific clock cycles or state changes.
